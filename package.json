@@ -1,0 +1,40 @@
+{
+  "name": "npx-angelovelandia",
+  "version": "5.1.0",
+  "description": "",
+  "main": "/bin/card.js",
+  "bin": {
+    "npx-angelovelandia": "./bin/card.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "boxen": "4.1.0",
+    "chalk": "4.1.2",
+    "commander": "^9.4.1",
+    "fs": "^0.0.1-security",
+    "npx-angelovelandia": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
