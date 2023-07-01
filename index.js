@@ -15,14 +15,14 @@ const options = {
 
 const data = {
   name: chalk.white("Angelo Velandia /"),
-  handle: chalk.cyan("npx-angelovelandia"),
+  handle: chalk.cyan("angelovelandia"),
   work: chalk.white("Developer"),
   twitter: chalk.cyan("https://twitter.com/avcodev"),
   github: chalk.cyan("https://github.com/angelovelandia"),
   linkedin: chalk.cyan(
     "https://www.linkedin.com/in/angelo-velandia-703438237/"
   ),
-  npx: chalk.white("npx npx-angelovelandia"),
+  npx: chalk.white("npx angelovelandia"),
   labelWork: chalk.white.bold("      Work:"),
   labelTwitter: chalk.white.bold("   Twitter:"),
   labelGitHub: chalk.white.bold("    GitHub:"),

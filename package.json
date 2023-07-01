@@ -1,6 +1,6 @@
 {
-  "name": "npx-angelovelandia",
-  "version": "6.0.0",
+  "name": "angelovelandia",
+  "version": "1.0.0",
   "description": "",
   "main": "./bin/card.js",
   "exports": {
