@@ -1,2 +1,2 @@
 var e=require("chalk"),n=require("boxen"),i=require("fs"),a=require("path"),t=console.log,o={padding:1,margin:1,borderStyle:"round"},l=e.white("Angelo Velandia /"),r=e.cyan("npx-angelovelandia"),d=e.white("Developer"),h=e.cyan("https://twitter.com/avcodev"),w=e.cyan("https://github.com/angelovelandia"),c=e.cyan("https://www.linkedin.com/in/angelo-velandia-703438237/"),g=e.white("npx npx-angelovelandia"),p="\n",b=l+" "+r+p+p+e.white.bold("      Work:")+"  "+d+p+e.white.bold("   Twitter:")+"  "+h+p+e.white.bold("    GitHub:")+"  "+w+p+e.white.bold("  LinkedIn:")+"  "+c+p+e.white.bold("      Card:")+"  "+g;i.writeFileSync(a.join(__dirname,"output"),e.green(n(b,o))),t(e.green(n(b,o)));
-//# sourceMappingURL=card.js.map
+//# sourceMappingURL=card.module.js.map

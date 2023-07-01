@@ -3,18 +3,26 @@
   "version": "5.4.0",
   "description": "",
   "main": "./bin/card.js",
+  "exports": {
+    "require": "./bin/card.cjs",     
+    "default": "./bin/card.modern.js"
+  },
+  "module": "./bin/card.module.js",
+  "unpkg": "./bin/card.umd.js",
+  "source": "build.js",   
   "bin": {
     "angelovelandia": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelovelandia/npx-angelovelandia.git"
+    "url": "https://github.com/angelovelandia/npx-angelovelandia.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard"
+    "build": "microbundle index.js",
+    "dev": "node index.js",
+    "start": "node ./bin/card.js",
+    "lint": "standard",
+    "view": "microbundle watch"
   },
   "keywords": [
     "card",
