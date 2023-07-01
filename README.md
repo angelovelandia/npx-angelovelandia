@@ -2,7 +2,8 @@
 
 Business card in terminal
 
-![image](https://user-images.githubusercontent.com/103347375/206963642-6b858be2-7e63-43b2-a024-a689c833b008.png)
+![image](https://github.com/angelovelandia/npx-angelovelandia/assets/103347375/3f65aa68-5ae4-4321-bbce-ac9e72314f70)
+
 
 ## Autores ✒️
 
