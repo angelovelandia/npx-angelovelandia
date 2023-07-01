@@ -52,11 +52,5 @@ const output =
   newline +
   carding;
 
-//Guardando archivo del CARD
-fs.writeFileSync(
-  path.join(__dirname, "output"),
-  chalk.green(boxen(output, options))
-);
-
 //Mostrando mensaje
 log(chalk.green(boxen(output, options)));
