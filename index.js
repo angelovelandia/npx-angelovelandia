@@ -6,6 +6,7 @@ const fs = require("fs");
 const path = require("path");
 
 const log = console.log;
+const MODE = process.argv[2];
 
 const options = {
   padding: 1,
@@ -52,5 +53,13 @@ const output =
   newline +
   carding;
 
+//Guardando archivo del CARD
+fs.writeFileSync(
+  path.join(__dirname, "output"),
+  chalk.green(boxen(output, options))
+);
+
 //Mostrando mensaje
-log(chalk.green(boxen(output, options)));
+if (MODE === "dev") {
+  log(chalk.green(boxen(output, options)));
+}
